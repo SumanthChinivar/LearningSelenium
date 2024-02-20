@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[Window is maximized]]>
+    </line>
+    <line>
+      <![CDATA[DemoWebShop is launched]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on register link]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-02-13T08:41:11 IST" name="Default suite" finished-at="2024-02-13T08:41:16 IST" duration-ms="4528">
+    <groups>
+    </groups>
+    <test started-at="2024-02-13T08:41:11 IST" name="Default test" finished-at="2024-02-13T08:41:16 IST" duration-ms="4528">
+      <class name="writingAutomationScriptUsingPOM.TC_DWS_Register_006">
+        <test-method signature="clickOnRegister()[pri:0, instance:writingAutomationScriptUsingPOM.TC_DWS_Register_006@2767e23c]" started-at="2024-02-13T08:41:11 IST" name="clickOnRegister" finished-at="2024-02-13T08:41:16 IST" duration-ms="4476" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+            <line>
+              <![CDATA[Window is maximized]]>
+            </line>
+            <line>
+              <![CDATA[DemoWebShop is launched]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on register link]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickOnRegister -->
+      </class> <!-- writingAutomationScriptUsingPOM.TC_DWS_Register_006 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

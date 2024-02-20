@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Flower">
+  <test thread-count="5" name="Flower1">
+	  <parameter name="flower" value="Rose"></parameter>
+    <classes>
+      <class name="crossBrowser.LearningCrossBrowser3"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Flower2">
+	  <parameter name="flower" value="Lily"></parameter>
+    <classes>
+      <class name="crossBrowser.LearningCrossBrowser4"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Flower3">
+	  <parameter name="flower" value="Jasmine"></parameter>
+    <classes>
+      <class name="crossBrowser.LearningCrossBrowser5"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Flower -->
